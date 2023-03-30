@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Article = () => {
+const Article = (article) => {
     return (
         <article>
-            <h5>Article</h5>
+            <div>
+                <h4>{article.title}</h4>
+                <div className="underline"></div>
+            </div>
+            <p>{article.body}</p>
         </article>
     )
 }

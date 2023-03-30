@@ -211,6 +211,10 @@ article {
   text-align: center;
 }
 
+article div {
+  position: relative;
+}
+
 article p {
   font-size: 0.875em;
 }
